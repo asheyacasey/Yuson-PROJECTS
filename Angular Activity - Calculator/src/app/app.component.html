@@ -1,0 +1,26 @@
+<div class = "top">
+<h1>{{title}}</h1>
+</div>
+
+<div class = "box1">
+  <input class = "text" type="number" name="num1" placeholder="first number" [(ngModel)]= "num1">
+ </div>
+
+<div class= "box2">
+  <input class = "text" type="number" name="num2" placeholder="second number" [(ngModel)]= "num2">
+</div>
+
+
+<div class="box3">
+ 
+  <button (click) = "add()" class = "button" type="button">+</button>
+  <button (click) = "sub()" class = "button" type="button">-</button>
+  <button (click) = "mul()" class = "button" type="button">x</button>
+  <button (click) = "div()" class = "button" type="button">/</button>
+  <button (click) = "erase()" class = "button" type="button">reset</button>
+
+</div>
+
+<div class= "box4">
+<h1 > {{result}}</h1> 
+</div>
