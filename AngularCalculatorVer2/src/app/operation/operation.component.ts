@@ -7,8 +7,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class OperationComponent /*implements OnInit*/ {
 /*
-  @Input() emptyF !: boolean;
-  @Input() emptyS !: boolean;
+ 
   @Output() operation = new EventEmitter<string>();
  
 
